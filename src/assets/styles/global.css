@@ -1,6 +1,4 @@
 :root{
-    font-size: 60%;
-
     --color-background: #F0F0F7;
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
@@ -19,6 +17,8 @@
     --color-button-text: #FFFFFF;
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
+  
+    font-size: 60%;
 }
 
 *{
@@ -33,4 +33,17 @@ html, body, #root{
 
 body{
     background: var(--color-background);
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, 
+input, 
+button, 
+textarea{
+    font: 500 1.6rem Poppins;
 }
